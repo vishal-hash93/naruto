@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Naruto Uzumaki</title>
+    <title>Naruto Characters</title>
 
     <style>
         body {
@@ -12,61 +12,59 @@
             font-family: Arial, sans-serif;
             background: #111;
             color: white;
-            text-align: center;
         }
 
         header {
             background: orange;
+            color: #111;
+            text-align: center;
             padding: 25px;
         }
 
         header h1 {
             margin: 0;
-            font-size: 40px;
-            color: #111;
+            font-size: 42px;
         }
 
-        .hero {
-            padding: 60px 20px;
-            background: linear-gradient(135deg, #111, #333);
+        .container {
+            padding: 40px;
+            text-align: center;
         }
 
-        .hero h2 {
-            font-size: 50px;
-            margin-bottom: 10px;
-            color: orange;
-        }
-
-        .hero p {
-            font-size: 20px;
-        }
-
-        .section {
-            padding: 40px 20px;
+        .characters {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
         }
 
         .card {
-            display: inline-block;
             width: 250px;
-            margin: 15px;
-            padding: 25px;
             background: #222;
             border-radius: 15px;
-            box-shadow: 0 0 10px orange;
+            padding: 20px;
+            box-shadow: 0 0 12px orange;
         }
 
-        .card h3 {
+        .card h2 {
             color: orange;
         }
 
-        footer {
-            background: #000;
+        .character {
+            font-size: 80px;
             padding: 20px;
-            margin-top: 30px;
         }
 
-        .chakra {
-            font-size: 50px;
+        .card p {
+            color: #ccc;
+            line-height: 1.5;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            text-align: center;
+            background: #000;
         }
     </style>
 </head>
@@ -74,63 +72,82 @@
 <body>
 
     <header>
-        <h1>🍥 NARUTO UZUMAKI 🍥</h1>
+        <h1>🍥 NARUTO CHARACTERS 🍥</h1>
+        <p>Shinobi World</p>
     </header>
 
-    <section class="hero">
-        <div class="chakra">🌀</div>
+    <div class="container">
 
-        <h2>BELIEVE IT!</h2>
+        <h2>🔥 Main Characters</h2>
 
-        <p>
-            The journey of a young ninja who never gives up.
-        </p>
+        <div class="characters">
 
-        <p>
-            "I never go back on my word. That's my ninja way!"
-        </p>
-    </section>
+            <div class="card">
+                <div class="character">🍥</div>
+                <h2>Naruto Uzumaki</h2>
+                <p>
+                    Village: Hidden Leaf<br>
+                    Role: Shinobi<br>
+                    Dream: Hokage
+                </p>
+            </div>
 
-    <section class="section">
+            <div class="card">
+                <div class="character">⚡</div>
+                <h2>Sasuke Uchiha</h2>
+                <p>
+                    Clan: Uchiha<br>
+                    Role: Shinobi<br>
+                    Special Ability: Sharingan
+                </p>
+            </div>
 
-        <h2>🔥 Naruto's Journey</h2>
+            <div class="card">
+                <div class="character">🌸</div>
+                <h2>Sakura Haruno</h2>
+                <p>
+                    Village: Hidden Leaf<br>
+                    Role: Medical Ninja<br>
+                    Team: Team 7
+                </p>
+            </div>
 
-        <div class="card">
-            <h3>Hidden Leaf Village</h3>
-            <p>
-                Naruto's home and the place where his ninja journey began.
-            </p>
+            <div class="card">
+                <div class="character">🥷</div>
+                <h2>Kakashi Hatake</h2>
+                <p>
+                    Village: Hidden Leaf<br>
+                    Role: Jonin<br>
+                    Known as: Copy Ninja
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="character">👁️</div>
+                <h2>Itachi Uchiha</h2>
+                <p>
+                    Clan: Uchiha<br>
+                    Role: Shinobi<br>
+                    Special Ability: Sharingan
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="character">🐍</div>
+                <h2>Orochimaru</h2>
+                <p>
+                    Village: Hidden Leaf<br>
+                    Role: Shinobi<br>
+                    Specialty: Forbidden Jutsu
+                </p>
+            </div>
+
         </div>
 
-        <div class="card">
-            <h3>Rasengan</h3>
-            <p>
-                One of Naruto's most powerful signature techniques.
-            </p>
-        </div>
-
-        <div class="card">
-            <h3>Hokage</h3>
-            <p>
-                Naruto's biggest dream was to become the Hokage of the village.
-            </p>
-        </div>
-
-    </section>
-
-    <section class="section">
-
-        <h2>🍥 Ninja Details</h2>
-
-        <p><strong>Name:</strong> Naruto Uzumaki</p>
-        <p><strong>Village:</strong> Konohagakure</p>
-        <p><strong>Clan:</strong> Uzumaki</p>
-        <p><strong>Dream:</strong> Become Hokage</p>
-
-    </section>
+    </div>
 
     <footer>
-        <p>🍥 Naruto Uzumaki - The Ninja Who Never Gives Up 🍥</p>
+        <p>🍥 Naruto Character Collection</p>
         <p>Created by Vishal Yamgar</p>
     </footer>
 
